@@ -1,0 +1,23 @@
+#board {
+    background: lightgray;
+    display: inline-block;
+    padding: 0 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    height: 20px;
+    margin: 4px 0;
+}
+
+.cell {
+    width: 20px;
+    margin: 0 2px;
+    background: white;
+}
+
+.cell.alive {
+    background: purple;
+}
